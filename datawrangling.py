@@ -15,6 +15,7 @@ import csv
 #Function which takes .csv as inputs and uses cleaned data for outputs
 
 def generateCleanFile(input_file, output_file):
+    
     df = pd.read_csv(input_file, encoding = "latin1", low_memory = False)
 
 
